@@ -163,7 +163,7 @@ function collisionChecker() {
 
     //checks for a hit with a wall hence height and widt 
     if (X < 0 || X > (canvas.width - 10) || Y < 0 || Y > (canvas.height - 10)) {
-        alert("Game Over, you hit something hard!! ");
+        alert("بیخه بورو پخپلو هههه ");
         newGame();
         return true;
     }
@@ -171,7 +171,7 @@ function collisionChecker() {
     // Body Collision
     for (i = 0; i < snake.length; i++)
         if (X == snake[i].x && Y == snake[i].y) {
-            alert("Game Over , you ate yourself !! : ");
+            alert("تو خو هیچ یاد نداری");
             newGame();
             return true;
         }

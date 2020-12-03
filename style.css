@@ -22,6 +22,15 @@ button {
 #canvas {
     background-color: rgb(19, 18, 18);
     border: 20px solid rgb(70, 64, 64);
+   
+}
+.image{
+    height: 500px;
+    width: 500px;
+    background-image: url(./bg.png);
+    position: absolute;
+    margin-top: -112px;
+    opacity: 10%;
 }
 
 #second {
@@ -31,6 +40,7 @@ button {
     margin-top: 5px;
     border: 2px solid rgb(20, 20, 20);
     border-radius: 20px;
+    
 }
 
 #score {
